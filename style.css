@@ -429,6 +429,11 @@ hr {
   height: 100px;
 }
 
+.mobile-menu img {
+  width: 30px;
+  margin-top: 30px;
+}
+
 .mobile-menu-list {
   display: none;
   flex-direction: column;
@@ -438,6 +443,12 @@ hr {
   margin-left: 10%;
   margin-right: 10%;
   background-color: #d3d3d350;
+}
+
+.mobile-menu-list a {
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+  font-size: 18px;
 }
 
 #about-menu {
