@@ -23,10 +23,6 @@
 - CSS
 - JAVASCRIPT
 
-## Live Demo
-
-[Live Demo Link](https://www.loom.com/share/e04d612ad24c4ba3967e778ace44ff60)
-
 
 
 ## Author
@@ -57,4 +53,4 @@ Leave a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./MIT.md) licensed
