@@ -1,0 +1,683 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.cdnfonts.com/css/Lato');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav1 {
+  display: none;
+  flex-direction: row-reverse;
+  background-color: #272a31;
+  height: 40px;
+  padding-right: 10%;
+}
+
+.nav1 a {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.nav1 a:hover {
+  color: #ec5242;
+}
+
+.nav1 button {
+  border: none;
+  background: none;
+}
+
+.nav2 {
+  display: none;
+  flex-direction: row-reverse;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+}
+
+.nav2Content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 400px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  margin-left: 6%;
+}
+
+.nav-item:hover {
+  color: #ec5242;
+}
+
+.logo {
+  display: none;
+}
+
+#bordered-link {
+  min-width: 110px;
+  border: 2px solid #ec5242;
+  padding: 2%;
+  color: #ec5242;
+}
+
+.opening {
+  background-image: linear-gradient(rgb(204, 204, 204), rgba(14, 12, 12, 0.205)),
+    url('../images/paper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 920px;
+  margin-top: -40px;
+}
+
+.helloText {
+  padding-top: 10%;
+  padding-left: 10%;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  color: #ec5242;
+}
+
+.title {
+  padding-left: 10%;
+  background-repeat: repeat;
+  background-position: center center;
+  color: rgb(236, 82, 66);
+  font-size: 58px;
+  font-family: 'Cocogoose', sans-serif;
+  width: 100%;
+  background-image: url(../images/fire.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textBox {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  background-color: #e4e4e4a8;
+  border: 1px solid rgba(255, 255, 255, 0.979);
+  margin: 5%;
+  padding: 2%;
+}
+
+.abou-textBox {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  background-color: white;
+  border: 2px solid #d3d3d3;
+  padding: 3%;
+  max-width: 850px;
+  margin-top: 7%;
+}
+
+.dateText {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 22px;
+  color: #d3d3d3;
+  margin-left: 5%;
+}
+
+.locationText {
+  font-family: 'Lato', sans-serif;
+  color: #d3d3d3;
+  font-size: medium;
+  margin-left: 5%;
+}
+
+.navbar-toggler {
+  margin: 5%;
+}
+
+.mainProgram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../images/program-bg.jpg');
+}
+
+.wholeProgram {
+  display: none;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  margin-bottom: 5%;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+  border: 1px solid #ec534278;
+  letter-spacing: 2px;
+  padding: 15px;
+}
+
+.wholeProgram:hover {
+  color: #ec5242;
+}
+
+.programTitle {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  color: white;
+  margin-top: 5%;
+}
+
+.plateTitle {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  color: #272a31;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.hr {
+  height: 2px;
+  width: 8%;
+  background-color: #ec5242;
+}
+
+.grey-line {
+  height: 2px;
+  width: 15%;
+  background-color: #d3d3d3;
+}
+
+.programCards {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #47474754;
+  padding: 5%;
+  text-align: center;
+  height: 100%;
+  border: 1px #d6311f3a solid;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #d3d3d355;
+  border: 1px #ec5242 solid;
+}
+
+hr {
+  color: #ec5242;
+}
+
+.card-image {
+  width: 40%;
+}
+
+.card-title h3 {
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  font-weight: bold;
+}
+
+.description {
+  font-family: 'Lato', sans-serif;
+  color: #d3d3d3;
+  margin-left: 5%;
+}
+
+.join-btn {
+  border: none;
+  background-color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: white;
+  min-height: 80px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 10%;
+}
+
+.deliveries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(199, 199, 199);
+  padding-bottom: 2%;
+}
+
+.deliveryCard {
+  display: none;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 5%;
+}
+
+.foods {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.lecturer-name {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #272a31;
+}
+
+.lecturer-position {
+  font-family: 'Lato', sans-serif;
+  font-size: medium;
+  font-style: italic;
+  color: #ec5242;
+}
+
+.lecturer-detail {
+  font-family: 'Lato', sans-serif;
+  color: #3b3c3f;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: row;
+  max-width: 700px;
+  align-content: center;
+  background-color: white;
+  padding: 1%;
+  border-radius: 10px;
+  margin: 2%;
+}
+
+.lecturer-info {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  align-content: center;
+}
+
+.lecturerPic {
+  width: 150px;
+  height: 150px;
+  margin: 2%;
+}
+
+.food-btn {
+  background-color: white;
+  border: 1px solid #d3d3d3;
+  width: 95%;
+  height: 50px;
+  margin: 5%;
+  align-items: center;
+}
+
+.food-btn span i {
+  font-size: 20px;
+  position: relative;
+  top: 2px;
+  padding: 5px;
+  color: #ec5242;
+}
+
+.Ourpartner {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: #474747d2;
+}
+
+.Ourpartner-list {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  min-width: 700px;
+}
+
+.Ourpartner-item {
+  font-family: 'Cocogoose', sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+  color: #0f0f0f;
+  cursor: pointer;
+  margin: 3%;
+  border: 1px solid rgba(255, 255, 255, 0.76);
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.Ourpartner-item:hover {
+  color: #ec5242;
+}
+
+.licence-logo {
+  max-width: 200px;
+  margin-right: 10%;
+}
+
+#auth {
+  display: none;
+  flex-direction: row;
+}
+
+#authLogo {
+  display: none;
+  background-color: #272a31;
+  color: white;
+  padding: 5%;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.authorization {
+  display: flex;
+  justify-content: center;
+}
+
+.auth-text {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.authorization .navLogo {
+  width: 10%;
+  margin-right: 30px;
+}
+
+.authorization .auth-licence {
+  width: 20%;
+  margin-left: 10%;
+}
+
+.mobile-auth {
+  display: flex;
+  flex-direction: row;
+}
+
+#auth-mobile {
+  padding-top: 3%;
+}
+
+.mobile-menu {
+  border: none;
+  background: none;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-menu-list {
+  display: none;
+  flex-direction: column;
+  padding: 3%;
+  left: 0;
+  right: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #d3d3d350;
+}
+
+#about-menu {
+  background-color: #ec5242;
+}
+
+.nav-link {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  padding-bottom: 3%;
+}
+
+.mobile-menu-list a:hover {
+  color: #ec5242;
+}
+
+#about-menu a:hover {
+  color: #272a31;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../images/about-bg.png');
+  background-repeat: no-repeat;
+  margin: 10%;
+}
+
+.aboutTitle {
+  font-family: 'Cocogoose', sans-serif;
+  color: #7c1106;
+  font-size: 56px;
+  text-align: center;
+  margin-top: -3%;
+}
+
+.about-normal-text {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #3b3c3f;
+}
+
+.logo-section {
+  border-bottom: 1px solid #d3d3d3;
+  border-top: 1px solid #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-border {
+  padding: 2%;
+  border: 2px solid #d3d3d3;
+  margin: 3%;
+}
+
+.ml-logo {
+  max-width: 100%;
+  border: 1px solid rgba(158, 158, 158, 0.76);
+  color: #b42313;
+  font-family: cocogoose, sans-serif;
+  font-family: 50px;
+  padding: 30px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pictures {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin: 5%;
+}
+
+.frame {
+  position: relative;
+}
+
+.photo {
+  max-width: 100%;
+}
+
+.after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 38, 0, 0.603);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pic {
+  text-align: center;
+  font-family: 'Cocogoose', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+#about-link {
+  color: #3b3c3f;
+}
+
+.mobile-Ourpartner {
+  background-color: #272a31;
+}
+
+.mobile-Ourpartner-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-Ourpartner-list {
+  margin: 5%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav1 {
+    display: flex;
+  }
+
+  .foods .card2 {
+    display: none;
+  }
+  .nav2 {
+    display: flex;
+  }
+
+  .navLogo {
+    display: block;
+    max-height: 80px;
+    max-width: 120px;
+  }
+
+  .navLogo p {
+    font-family: 'Cocogoose', sans-serif;
+    font-size: 30px;
+    color: #b42313;
+  }
+
+  .opening {
+    min-height: 1080px;
+  }
+
+  .title {
+    font-size: 80px;
+  }
+
+  .textBox,
+  .dateText,
+  .locationText {
+    margin-left: 10%;
+    max-width: 700px;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .programCards {
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  #auth {
+    display: flex;
+    padding: 5%;
+    padding-left: 10%;
+  }
+
+  #darkLicense {
+    display: flex;
+    padding-left: 10%;
+  }
+
+  .join-btn {
+    display: none;
+  }
+
+  .mainProgram a {
+    display: block;
+  }
+
+  .card {
+    flex-direction: column;
+    height: 250px;
+  }
+
+  .program-title {
+    justify-content: center;
+  }
+
+  .deliveryCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .deliveryCard-preview {
+    display: none;
+  }
+
+  .food-btn {
+    display: none;
+  }
+
+  .Ourpartner {
+    display: flex;
+  }
+
+  .nav-link:hover {
+    color: #ec5242;
+  }
+
+  .pictures {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mobile-Ourpartner {
+    display: none;
+  }
+
+  .mobile-auth {
+    display: none;
+  }
+  .authorization {
+    background-color: #858585;
+    margin: 0 auto;
+    width: 90%;
+  }
+}
