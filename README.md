@@ -13,7 +13,7 @@
 - CSS
 - JAVASCRIPT
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
