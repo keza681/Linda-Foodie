@@ -3,8 +3,7 @@
 # Project Name
 
 *LINDA TASTE FOOD*
-> Description the project.
-This project is related to the completion of the Portal module.
+> This project is related to the completion of the Portal module.
 
 
 ## Built With
@@ -32,7 +31,7 @@ This project is related to the completion of the Portal module.
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome :eye:
+Contributions, issues, and feature requests are welcome😉
 
 Feel free to check the [issues page](https://github.com/keza681/LindaFood-Project/issues).
 
