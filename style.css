@@ -84,7 +84,7 @@ body {
   padding-top: 10%;
   padding-left: 10%;
   font-family: 'Lato', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   color: #ec5242;
 }
 
@@ -93,7 +93,7 @@ body {
   background-repeat: repeat;
   background-position: center center;
   color: rgb(236, 82, 66);
-  font-size: 58px;
+  font-size: 42px;
   font-family: 'Cocogoose', sans-serif;
   width: 100%;
   background-image: url(../images/fire.jpg);

@@ -3,6 +3,8 @@
 # *LINDA TASTE FOOD*
 
 > This project is related to the completion of the Portal module.
+![Mobile Version](mob.png)
+![Desktop version](desktop.png)
 
 
 ## Built With
