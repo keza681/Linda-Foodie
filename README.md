@@ -1,8 +1,7 @@
 ![](http://127.0.0.1:5500/)
 
-# Project Name
+# *LINDA TASTE FOOD*
 
-*LINDA TASTE FOOD*
 > Description the project.
 This project is related to the completion of the Portal module.
 
