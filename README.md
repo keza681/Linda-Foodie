@@ -1,15 +1,18 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](http://127.0.0.1:5500/)
 
 # Project Name
 
+*LINDA TASTE FOOD*
 > Description the project.
+This project is related to the completion of the Portal module.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+ Major languages
+- HTML
+- CSS
+- JAVASCRIPT
 
 ## Live Demo (if available)
 
@@ -17,9 +20,9 @@
 
 
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Keza**
 
 - GitHub: [Visit my github](https://github.com/keza681)
 - Twitter: [Visit my twitter](https://twitter.com/LKeza19)
@@ -29,15 +32,17 @@
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome :eye:
 
 Feel free to check the [issues page](https://github.com/keza681/LindaFood-Project/issues).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Leave a ⭐️ if you like this project!
 
 ## Acknowledgments
+
+- The [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) is originally created by [@Cindy Shin](https://www.behance.net/adagio07) with an open [license](https://creativecommons.org/licenses/by-nc/4.0/) of NonCommercial use. Some modifications has been made to fit the needed requirment of the project. This project is designed as an assignment for my school and not for commercial use.
 
 - Hat tip to anyone whose code was used
 
