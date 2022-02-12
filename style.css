@@ -587,7 +587,6 @@ hr {
     font-size: 18px;
     border: 1px solid rgba(231, 231, 231, 0.575);
     padding: 8px;
-
   }
 
   .lecturerTitle {
@@ -595,7 +594,6 @@ hr {
     font-size: 19px;
     padding-top: 10px;
   }
-
 }
 
 @media screen and (min-width: 768px) {
