@@ -573,7 +573,29 @@ hr {
 }
 
 .mobile-Ourpartner-list {
-  margin: 5%;
+  margin: 3%;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-Ourpartner-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .mobile-Ourpartner-list a {
+    font-size: 18px;
+    border: 1px solid rgba(231, 231, 231, 0.575);
+    padding: 8px;
+
+  }
+
+  .lecturerTitle {
+    text-align: center;
+    font-size: 19px;
+    padding-top: 10px;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
