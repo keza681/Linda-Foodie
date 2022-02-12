@@ -2,7 +2,6 @@
 
 # *LINDA TASTE FOOD*
 
-*LINDA TASTE FOOD*
 > This project is related to the completion of the Portal module.
 
 
