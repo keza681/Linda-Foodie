@@ -80,7 +80,7 @@ body {
 .opening {
   background-image:
     linear-gradient(rgb(204, 204, 204), rgba(14, 12, 12, 0.205)),
-    url('../images/paper.jpg');
+    url('./images/paper.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 920px;
