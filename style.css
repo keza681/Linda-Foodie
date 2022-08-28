@@ -386,7 +386,7 @@ hr {
 
 #auth {
   display: flex;
-  flex-direction: space-around;
+  justify-content: space-around;
 }
 
 #authLogo {
