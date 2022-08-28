@@ -12,7 +12,7 @@
 
 
 
-[Online Version](https://keza681.github.io/) deployed on github pages.
+[Online Version](https://timely-elf-9379c7.netlify.app/about.html) deployed on Netlify.
 
 
 
