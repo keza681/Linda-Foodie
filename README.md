@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Online Version](https://timely-elf-9379c7.netlify.app/about.html) deployed on Netlify.
+[Online Version](https://timely-elf-9379c7.netlify.app/index.html) deployed on Netlify.
 
 
 
